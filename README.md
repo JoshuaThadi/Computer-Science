@@ -1,7 +1,7 @@
 # 💻 Computer Science Fundamentals
 
-Welcome to the **Computer Science Fundamentals Repository** — your one-stop resource for learning, revising, and mastering the core concepts of **Computer Science**.  
-This repository is designed to help students, educators, and self-learners gain a strong foundation in both theoretical and practical aspects of CS.
+Computer Science is the study of computers, computational systems, and the principles behind how they work. It focuses on how data is processed, how software and hardware interact, and how problems can be solved efficiently using algorithms and programming.
+In simple terms, Computer Science = the science of solving problems using computers.
 
 ---
 

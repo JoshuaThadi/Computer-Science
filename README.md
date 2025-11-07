@@ -3,7 +3,7 @@
 Computer Science is the study of computers, computational systems, and the principles behind how they work. It focuses on how data is processed, how software and hardware interact, and how problems can be solved efficiently using algorithms and programming.
 In simple terms, Computer Science = the science of solving problems using computers.
 
-- Automation
+- <b>Automation - Projects and resources for automation in software engineering</b>
   <details>
   <summary>Automation</summary>
     <div align="center">
@@ -22,7 +22,7 @@ In simple terms, Computer Science = the science of solving problems using comput
     <a href="https://www.postman.com/">
       <img src="https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png" alt="Postman" width="75px"></a>
     
-    # ⚙️ Automation Repository
+    # ⚙️ Automation
     
     Automation is the use of technology to perform tasks with minimal human intervention. It aims to increase efficiency, accuracy, and speed by automating repetitive or complex operations that would otherwise require manual effort.
     <br>
@@ -40,7 +40,6 @@ In simple terms, Computer Science = the science of solving problems using comput
     
     ---
     
-    > [!IMPORTANT]
     > ## ✶ Automation Projects
     > <img width="100%" src="https://github.com/JoshuaThadi/Computer-Science/blob/main/Computer%20Science/Automations-main/assests/Meta-WhatsApp.png" />
     >
@@ -267,7 +266,6 @@ In simple terms, Computer Science = the science of solving problems using comput
     
     <a href="https://www.zapier.com/" target="_blank">
       <img src="https://img.shields.io/badge/Zapier-No%20Code%20Automation-81A1C1?style=for-the-badge&logo=zapier&logoColor=white" alt="Zapier Badge"></a>
-    
       <!-- 1. Test Automation -->
     <a href="https://www.selenium.dev/" target="_blank">
       <img src="https://img.shields.io/badge/Selenium-Test%20Automation-88C0D0?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium Badge"></a>

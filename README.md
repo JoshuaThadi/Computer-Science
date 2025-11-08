@@ -1129,7 +1129,7 @@ Deep Learning is a specialized area of machine learning that uses algorithms cal
   
 <details>
   <summary>Generative AI - details</summary>
-  <img width="100%" src="https://github.com/JoshuaThadi/Generative-AI/blob/main/assests/banner.png">
+  <img width="100%" src="Computer Science/Generative-AI-main/assests/banner.png">
 
 <div align="center">
 <a href="https://github.com/JoshuaThadi/Computer-Science/blob/main/Computer%20Science/Generative-AI-main/GenAI-roadmap.md">

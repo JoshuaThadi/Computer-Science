@@ -29,7 +29,7 @@ In simple terms, Computer Science = the science of solving problems using comput
     
     <a href="https://blog.tensorflow.org/2022/09/automated-deployment-of-tensorflow-models-with-tensorflow-serving-and-github-actions.html" target="_blank">
       <img src="https://img.shields.io/badge/TensorFlow-Auto_Deployment-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Badge"></a>
-      <a href="https://github.com/JoshuaThadi/Automations/blob/main/automation-roadmap.md" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/JoshuaThadi/Computer-Science/blob/main/Computer%20Science/Automations-main/automation-roadmap.md" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/Automation%20Roadmap-grey?style=for-the-badge&logo=github&logoColor=white" alt="Automation Roadmap Badge" /></a>
       <a href="https://autokeras.com/" target="_blank">
       <img src="https://img.shields.io/badge/Keras-AutoKeras-E4233B?style=for-the-badge&logo=keras&logoColor=white" alt="Keras AutoKeras Badge"></a>

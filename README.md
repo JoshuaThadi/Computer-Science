@@ -1907,5 +1907,5 @@ This repository is open-source and available under the **MIT License**.
 ---
 
 <p align="center">
-  ⚠️ This README is uniquely designed by <strong>Joshua Thadi</strong>.
+  ⚠️ This README is uniquely designed by <strong>@Joshua Thadi</strong>.
 </p>

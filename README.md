@@ -208,6 +208,188 @@ A data structure is a way of organizing and storing data so that it can be acces
 - Network Security Basics  
 - Wireless & Mobile Networks  
 
+<details>
+  <summary>Cloud Computing - details</summary>
+  # 🌥️ Cloud Computing Roadmap — From Beginner to Professional
+
+A practical, project-driven roadmap to move from **absolute beginner** to **job-ready cloud engineer**.
+
+---
+
+## 🔰 Phase 1: Absolute Foundations (2–3 weeks)
+
+### 1️⃣ Learn how the internet & servers work
+- Server vs Client  
+- IP, DNS, HTTP  
+- Firewalls  
+- On-prem vs Cloud  
+👉 Watch short explainers and visualize concepts.
+
+### 2️⃣ Learn basic Linux & the terminal
+You’ll use Linux everywhere in the cloud.
+
+- Navigate folders, users, permissions  
+- Install packages  
+- Basic shell scripting  
+👉 Practice daily using **Ubuntu** (VM or WSL).
+
+### 3️⃣ Learn Git (version control)
+- clone, commit, push  
+- branches & pull requests  
+
+➡ **Goal:** Be comfortable working in the terminal.
+
+---
+
+## 🌩️ Phase 2: Core Cloud Concepts — AWS (1 month)
+
+Create a **free AWS account** and learn:
+
+- EC2 — virtual machines  
+- S3 — object storage  
+- IAM — permissions & security  
+- RDS — managed databases  
+- VPC — basic networking  
+
+👉 Prefer **hands-on labs** over just watching videos.
+
+### 📌 Mini-Project
+**Host a static website using S3 + CloudFront + custom domain.**
+
+You will learn:
+
+- storage  
+- permissions  
+- caching  
+- cost awareness  
+
+---
+
+## 🐳 Phase 3: Containers & Automation (1–1.5 months)
+
+### 1️⃣ Learn Docker
+- Build & run containers  
+- Push images to Docker Hub  
+
+📌 **Mini-Project:** Containerize a simple Node/Python app.
+
+### 2️⃣ Learn Infrastructure as Code (Terraform)
+- Provision EC2, S3, VPC using code  
+
+📌 **Project:**  
+Create your entire AWS environment using Terraform (no manual clicking).
+
+> 🏆 This is HUGE for recruiters.
+
+---
+
+## ⚙️ Phase 4: Kubernetes + CI/CD (1–1.5 months)
+
+### 1️⃣ Kubernetes (K8s)
+- Pods, Deployments, Services, Ingress  
+- Auto-scaling & rolling updates  
+
+📌 **Project:** Deploy your Docker app on Kubernetes.
+
+### 2️⃣ CI/CD Pipelines
+- GitHub Actions / GitLab CI  
+- Build → Test → Deploy automatically  
+- Rollbacks  
+- Notifications  
+
+📌 **Project:**  
+A pipeline that deploys your app to Kubernetes on every push.
+
+---
+
+## 🛠️ Phase 5: Serverless & Event-Driven (1 month)
+
+Learn:
+
+- AWS Lambda  
+- API Gateway  
+- SQS / SNS  
+- EventBridge  
+
+📌 **Project:**  
+**Serverless backend** — user submits a request → goes to queue → Lambda processes → sends email.
+
+> Recruiters love **event-driven systems**.
+
+---
+
+## 🔐 Phase 6: Security, Monitoring & Cost (ongoing)
+
+Understand:
+
+- IAM least-privilege  
+- KMS encryption  
+- GuardDuty & WAF basics  
+- CloudWatch, Prometheus, Grafana  
+- Cost-optimization strategies  
+
+📌 **Project:**  
+Create a **monitoring dashboard + alerting** for an app.
+
+---
+
+## 🧪 Phase 7: Real Portfolio Projects (very important)
+
+Pick **2–3**:
+
+- ✔ Auto-healing microservices on Kubernetes  
+- ✔ Serverless e-commerce backend  
+- ✔ Cloud cost-optimization bot  
+- ✔ Data pipeline: ingest → transform → visualize  
+- ✔ Multi-cloud disaster-recovery simulation  
+
+Document each project with:
+
+- architecture diagram  
+- design decisions  
+- cost & security notes  
+- screenshots + detailed README  
+
+> This is what makes you look **professional**.
+
+---
+
+## 🎓 Certifications (optional but helpful)
+
+After Phase 3–4:
+
+- **AWS Cloud Practitioner**
+
+Then:
+
+- **AWS Solutions Architect — Associate**
+
+> Certifications validate skills — they don’t replace them.
+
+---
+
+## 🧠 Daily Study Routine
+
+1️⃣ 30–45 mins concepts  
+2️⃣ 45–60 mins hands-on labs  
+3️⃣ 10 mins notes/diagrams  
+4️⃣ Break something → fix it (best learning)
+
+➡ **Consistency > speed.**
+
+---
+
+## 🛑 Biggest Mistakes to Avoid
+
+✗ Only watching tutorials (no labs)  
+✗ Avoiding Linux  
+✗ Ignoring networking & IAM  
+✗ Not documenting projects  
+✗ Building only tiny sample apps  
+
+</details>
+
+
 ---
 
 ## 🗄️ 8. Database Management Systems (DBMS)

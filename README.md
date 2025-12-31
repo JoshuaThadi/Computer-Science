@@ -16,7 +16,16 @@ In simple terms, Computer Science = the science of solving problems using comput
 - Algorithms & Flowcharts  
 - Computer Architecture Basics (CPU, Memory, I/O, Storage)  
 - Operating System Fundamentals  
-- Software vs Hardware Concepts  
+- Software vs Hardware Concepts
+
+<a href="https://www.khanacademy.org/computing/computer-science"> 
+ <img src="https://img.shields.io/badge/Intro_to_CS-2e2e2e?style=for-the-badge"></a> 
+
+<a href="https://cs50.harvard.edu/x/"> 
+  <img src="https://img.shields.io/badge/Harvard_CS50-2e2e2e?style=for-the-badge"></a> 
+
+<a href="https://www.computerhistory.org/"> 
+  <img src="https://img.shields.io/badge/History_of_Computing-2e2e2e?style=for-the-badge"></a>
 
 ---
 
@@ -32,6 +41,10 @@ In simple terms, Computer Science = the science of solving problems using comput
 - Object-Oriented Programming (OOP) — Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction  
 - Functional Programming Basics  
 
+<a href="https://www.w3schools.com/"> <img src="https://img.shields.io/badge/W3Schools-2e2e2e?style=for-the-badge"></a> 
+<a href="https://www.programiz.com/"> <img src="https://img.shields.io/badge/Programiz-2e2e2e?style=for-the-badge"></a> 
+<a href="https://www.codecademy.com/"> <img src="https://img.shields.io/badge/Codecademy-2e2e2e?style=for-the-badge"></a>
+
 ---
 
 ## 🧩 3. Data Structures & Algorithms (DSA)
@@ -44,7 +57,11 @@ In simple terms, Computer Science = the science of solving problems using comput
 - Searching Algorithms (Linear, Binary)  
 - Time & Space Complexity (Big O Notation)  
 - Dynamic Programming  
-- Greedy Algorithms  
+- Greedy Algorithms
+
+<a href="https://leetcode.com/"> <img src="https://img.shields.io/badge/LeetCode-2e2e2e?style=for-the-badge"></a> 
+<a href="https://www.geeksforgeeks.org/data-structures/"> <img src="https://img.shields.io/badge/GeeksforGeeks_DSA-2e2e2e?style=for-the-badge"></a> 
+<a href="https://visualgo.net/"> <img src="https://img.shields.io/badge/VisualGO-2e2e2e?style=for-the-badge"> </a>
 
 <details>
   <summary>Data Structures and Algorithms - details</summary>
@@ -176,8 +193,11 @@ A data structure is a way of organizing and storing data so that it can be acces
 - Proof Techniques (Induction, Contradiction, etc.)  
 - Graph Theory  
 - Combinatorics & Probability  
-- Number Theory & Cryptography Basics  
+- Number Theory & Cryptography Basics
 
+<a href="https://www.khanacademy.org/math/discrete-math"> <img src="https://img.shields.io/badge/Khan_Academy_Discrete_Math-2e2e2e?style=for-the-badge"></a> 
+<a href="https://www.cs.princeton.edu/courses/archive/fall07/cos340/"> <img src="https://img.shields.io/badge/Princeton_Discrete_Math-2e2e2e?style=for-the-badge"></a>
+  
 ---
 
 ## ⚙️ 5. Computer Organization & Architecture
@@ -186,6 +206,9 @@ A data structure is a way of organizing and storing data so that it can be acces
 - Pipelining and Parallelism  
 - Input/Output Systems  
 - Assembly Language Basics  
+
+<a href="https://www.coursera.org/learn/computer-architecture"> <img src="https://img.shields.io/badge/Computer_Architecture-2e2e2e?style=for-the-badge"></a> 
+<a href="http://pages.cs.wisc.edu/~markhill/cs552/"> <img src="https://img.shields.io/badge/Wisconsin_COA-2e2e2e?style=for-the-badge"></a>
 
 ---
 
@@ -199,6 +222,9 @@ A data structure is a way of organizing and storing data so that it can be acces
 - System Calls  
 - Virtualization Basics  
 
+<a href="https://pages.cs.wisc.edu/~remzi/OSTEP/"> <img src="https://img.shields.io/badge/OSTEP_Book-2e2e2e?style=for-the-badge"></a> 
+<a href="https://www.geeksforgeeks.org/operating-systems/"> <img src="https://img.shields.io/badge/OS_Guide-2e2e2e?style=for-the-badge"></a>
+
 ---
 
 ## 🌐 7. Computer Networks
@@ -209,6 +235,9 @@ A data structure is a way of organizing and storing data so that it can be acces
 - Transmission Media  
 - Network Security Basics  
 - Wireless & Mobile Networks  
+
+<a href="https://www.coursera.org/learn/computer-networking"> <img src="https://img.shields.io/badge/Networking_Course-2e2e2e?style=for-the-badge"></a> 
+<a href="https://www.geeksforgeeks.org/computer-network-tutorials/"> <img src="https://img.shields.io/badge/Networks_Guide-2e2e2e?style=for-the-badge"></a>
 
 <details>
   <summary>Cloud Computing - details</summary>
@@ -403,6 +432,9 @@ Then:
 - Indexing  
 - NoSQL Databases Overview  
 
+<a href="https://www.postgresqltutorial.com/"> <img src="https://img.shields.io/badge/SQL_Tutorial-2e2e2e?style=for-the-badge"></a> 
+<a href="https://www.mongodb.com/docs/"> <img src="https://img.shields.io/badge/MongoDB_Docs-2e2e2e?style=for-the-badge"></a>
+
 ---
 
 ## 🔐 9. Cybersecurity & Cryptography
@@ -411,7 +443,10 @@ Then:
 - Public Key Infrastructure (PKI)  
 - Digital Signatures & Certificates  
 - Network Security (Firewalls, IDS/IPS, VPNs)  
-- Cyber Forensics Basics  
+- Cyber Forensics Basics
+
+<a href="https://tryhackme.com/"> <img src="https://img.shields.io/badge/TryHackMe-2e2e2e?style=for-the-badge"></a> 
+<a href="https://cryptopals.com/"> <img src="https://img.shields.io/badge/Cryptography_Challenges-2e2e2e?style=for-the-badge"></a>
 
 ---
 
@@ -423,6 +458,9 @@ Then:
 - Testing & Quality Assurance  
 - Version Control (Git & GitHub)
 - DevOps Introduction
+
+<a href="https://martinfowler.com/"> <img src="https://img.shields.io/badge/Martin_Fowler-2e2e2e?style=for-the-badge"></a> 
+<a href="https://roadmap.sh/software-engineer"> <img src="https://img.shields.io/badge/Software_Roadmap-2e2e2e?style=for-the-badge"></a>
 
 <details>
   <summary>Automation - details</summary>
@@ -1000,6 +1038,8 @@ Then:
 - Turing Machines  
 - Decidability and Complexity Classes  
 
+[<img src="https://img.shields.io/badge/Automata_Theory-2e2e2e?style=for-the-badge">](https://www.geeksforgeeks.org/theory-of-computation-automata-tutorials/)  [<img src="https://img.shields.io/badge/Regular_Expressions-2e2e2e?style=for-the-badge">](https://regexone.com/)  [<img src="https://img.shields.io/badge/Context_Free_Grammar-2e2e2e?style=for-the-badge">](https://www.javatpoint.com/context-free-grammar)  [<img src="https://img.shields.io/badge/Turing_Machines-2e2e2e?style=for-the-badge">](https://www.cs.toronto.edu/~hehner/csc110y/f05/Turing.pdf)  [<img src="https://img.shields.io/badge/Decidability_&_Complexity-2e2e2e?style=for-the-badge">](https://www.khanacademy.org/computing/computer-science/algorithms)  
+
 ---
 
 ## 🔢 12. Compiler Design
@@ -1007,6 +1047,8 @@ Then:
 - Lexical Analysis & Syntax Analysis  
 - Parsing Techniques  
 - Code Optimization & Code Generation  
+
+[<img src="https://img.shields.io/badge/Compiler_Phases-2e2e2e?style=for-the-badge">](https://www.geeksforgeeks.org/compiler-design-tutorials/)  [<img src="https://img.shields.io/badge/Lexical_&_Syntax_Analysis-2e2e2e?style=for-the-badge">](https://www.tutorialspoint.com/compiler_design/compiler_design_lexical_analysis.htm)  [<img src="https://img.shields.io/badge/Parsing_Techniques-2e2e2e?style=for-the-badge">](https://www.geeksforgeeks.org/parsing/)  [<img src="https://img.shields.io/badge/Code_Optimization-2e2e2e?style=for-the-badge">](https://llvm.org/docs/Passes.html)  [<img src="https://img.shields.io/badge/Code_Generation-2e2e2e?style=for-the-badge">](https://www3.cs.stonybrook.edu/~pfodor/courses/CSE304/lectures/11-code-generation.pdf)  
 
 ---
 
@@ -1016,6 +1058,18 @@ Then:
 - Machine Learning Basics (Supervised, Unsupervised, Reinforcement)  
 - Neural Networks  
 - Natural Language Processing (Basics)
+
+1] AI & Machine Learning (Intro) 
+<br>
+[<img src="https://img.shields.io/badge/Intro_to_AI/ML-2e2e2e?style=for-the-badge">](https://developers.google.com/machine-learning/crash-course)  [<img src="https://img.shields.io/badge/Types_of_AI-2e2e2e?style=for-the-badge">](https://www.ibm.com/topics/artificial-intelligence)  [<img src="https://img.shields.io/badge/ML_Basics_(Andrew_Ng)-2e2e2e?style=for-the-badge">](https://www.coursera.org/learn/machine-learning)  [<img src="https://img.shields.io/badge/Neural_Network_Playground-2e2e2e?style=for-the-badge">](https://playground.tensorflow.org/)  [<img src="https://img.shields.io/badge/NLP_Basics-2e2e2e?style=for-the-badge">](https://huggingface.co/learn/nlp-course/chapter1/1)  
+
+2] ML Roadmap
+<br>
+[<img src="https://img.shields.io/badge/ML_Roadmap-2e2e2e?style=for-the-badge">](https://roadmap.sh/ai-data-scientist)  [<img src="https://img.shields.io/badge/Math_for_ML-2e2e2e?style=for-the-badge">](https://mml-book.github.io/)  [<img src="https://img.shields.io/badge/Reinforcement_Learning-2e2e2e?style=for-the-badge">](https://huggingface.co/learn/deep-rl-course/unit0/introduction)  [<img src="https://img.shields.io/badge/Clustering_&_Dimensionality_Reduction-2e2e2e?style=for-the-badge">](https://scikit-learn.org/stable/modules/clustering.html)  [<img src="https://img.shields.io/badge/Feature_Engineering-2e2e2e?style=for-the-badge">](https://www.kaggle.com/learn/feature-engineering)  [<img src="https://img.shields.io/badge/MLOps_&_Deployment-2e2e2e?style=for-the-badge">](https://mlops.community/)  
+
+3] Generative AI
+<br>
+[<img src="https://img.shields.io/badge/Generative_AI_Intro-2e2e2e?style=for-the-badge">](https://www.deeplearning.ai/short-courses/generative-ai-with-llms/)  [<img src="https://img.shields.io/badge/Diffusion_Models-2e2e2e?style=for-the-badge">](https://huggingface.co/learn/diffusion-course/unit0/introduction)  [<img src="https://img.shields.io/badge/Transformers_Guide-2e2e2e?style=for-the-badge">](https://transformersbook.com/)  [<img src="https://img.shields.io/badge/RAG_(Retrieval_Augmented_Generation)-2e2e2e?style=for-the-badge">](https://www.pinecone.io/learn/retrieval-augmented-generation/)  [<img src="https://img.shields.io/badge/Prompt_Engineering-2e2e2e?style=for-the-badge">](https://www.promptingguide.ai/)  
 
 
 <details>
@@ -2069,7 +2123,10 @@ Large Concept Models (LCMs) are generalist AI systems trained on multimodal and 
 - Client-Server Model  
 - APIs and HTTP Methods  
 - Frontend vs Backend  
-- Databases in Web Development  
+- Databases in Web Development
+
+[<img src="https://img.shields.io/badge/Internet_&_Web_Basics-2e2e2e?style=for-the-badge">](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)  [<img src="https://img.shields.io/badge/HTML-2e2e2e?style=for-the-badge">](https://developer.mozilla.org/en-US/docs/Web/HTML)  [<img src="https://img.shields.io/badge/CSS-2e2e2e?style=for-the-badge">](https://developer.mozilla.org/en-US/docs/Web/CSS)  [<img src="https://img.shields.io/badge/JavaScript-2e2e2e?style=for-the-badge">](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  [<img src="https://img.shields.io/badge/Client_Server_Model-2e2e2e?style=for-the-badge">](https://www.cloudflare.com/learning/ddos/glossary/client-server-model/)  [<img src="https://img.shields.io/badge/APIs_&_HTTP_Methods-2e2e2e?style=for-the-badge">](https://www.restapitutorial.com/)  [<img src="https://img.shields.io/badge/Frontend_vs_Backend-2e2e2e?style=for-the-badge">](https://www.codecademy.com/articles/what-is-front-end-back-end)  [<img src="https://img.shields.io/badge/Databases_in_Web_Development-2e2e2e?style=for-the-badge">](https://www.w3schools.com/whatis/whatis_sql.asp)  
+
 
 ---
 
@@ -2078,7 +2135,9 @@ Large Concept Models (LCMs) are generalist AI systems trained on multimodal and 
 - VS Code / IDE Setup Guides  
 - Command Line Basics  
 - Docker Basics  
-- Cloud Computing Overview (AWS, Azure, GCP)  
+- Cloud Computing Overview (AWS, Azure, GCP)
+
+[<img src="https://img.shields.io/badge/Git_&_GitHub-2e2e2e?style=for-the-badge">](https://docs.github.com/en/get-started/quickstart)  [<img src="https://img.shields.io/badge/VS_Code_/_IDE_Setup-2e2e2e?style=for-the-badge">](https://code.visualstudio.com/docs/setup/setup-overview)  [<img src="https://img.shields.io/badge/Command_Line_Basics-2e2e2e?style=for-the-badge">](https://www.learnenough.com/command-line-tutorial)  [<img src="https://img.shields.io/badge/Docker_Basics-2e2e2e?style=for-the-badge">](https://docs.docker.com/get-started/)  [<img src="https://img.shields.io/badge/Cloud_Computing_(AWS,_Azure,_GCP)-2e2e2e?style=for-the-badge">](https://www.cloudskillsboost.google/)  
 
 ---
 

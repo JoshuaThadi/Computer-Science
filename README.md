@@ -1,3 +1,5 @@
+<img width="100%" src="https://github.com/JoshuaThadi/Computer-Science/blob/main/Computer%20Science/Computer%20Science-gif%20(1).gif">
+
 # 💻 Computer Science Fundamentals
 
 Computer Science is the study of computers, computational systems, and the principles behind how they work. It focuses on how data is processed, how software and hardware interact, and how problems can be solved efficiently using algorithms and programming.

@@ -1,0 +1,28 @@
+<!--
+
+WAP to create and implement modules and controllers in angular JS
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app4.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div ng-controller="MainController" class="ng-scope">
+        <h1 class="ng-binding">Welcome to AngularJS Modules and Controllers</h1>
+        <p class="ng-binding">This demonstrates how to use modules and controllers in AngularJS</p>
+    </div>
+
+    <div ng-controller="AnotherController" class="ng-scope">
+        <h2 class="ng-binding">List of items: </h2>
+        <ul>
+            <!-- ngRepeat: item in items --><li ng-repeat="item in items" class="ng-binding ng-scope">item 1</li><!-- end ngRepeat: item in items --><li ng-repeat="item in items" class="ng-binding ng-scope">item 2</li><!-- end ngRepeat: item in items --><li ng-repeat="item in items" class="ng-binding ng-scope">item 4</li><!-- end ngRepeat: item in items -->
+        </ul>
+    </div>
+</body>
+</html>

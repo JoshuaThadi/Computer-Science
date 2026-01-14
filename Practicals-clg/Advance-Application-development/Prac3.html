@@ -1,0 +1,33 @@
+<!--
+    Simple HTML "Hello World" project using AngularJS framework 
+    Applying ng-container, ng-model & expressions
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <title>Hello World with AngularJS</title>
+</head>
+<body ng-app="myApp">
+
+    <div ng-controller="HelloController">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" ng-model="userName">
+        
+        <!-- Using ng-container to group elements -->
+        <ng-container ng-if="userName">
+            <p>Hello, {{ userName }}! Welcome to AngularJS!</p>
+        </ng-container>
+    </div>
+
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('HelloController', function($scope) {
+            $scope.userName = "";
+        });
+    </script>
+
+</body>
+</html>

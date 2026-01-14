@@ -1,0 +1,39 @@
+# DFS implementation using adjacency list
+
+def dfs(graph, start, visited=None):
+    if visited is None:
+        visited = set()
+    visited.add(start)
+    print(start, end=" ")
+
+    for neighbor in graph[start]:
+        print(f"{graph[start]},{graph[neighbor]}, neighbor => {neighbor}")
+        if neighbor not in visited:
+            dfs(graph, neighbor, visited)
+
+# example usage
+if __name__ == "__main__":
+    # graph represented as adjacency list (dictionary)
+    graph = {
+        'A' : ['B', 'C'],
+        'B' : ['D', 'E'],
+        'C' : ['F'],
+        'D' : [],
+        'E' : ['F'],
+        'F' : []
+    }
+
+    # visualization of the graph
+    '''
+                A -- starting node (parent node)
+               / \ -- branch
+              B   C -- leaf node (child node)
+             / \   \
+            D   E   F
+                |
+                F -- ending node
+    '''
+
+    print("DFS Traversal starting from node A: ")
+    dfs(graph, 'A')
+

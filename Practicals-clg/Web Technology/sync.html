@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: roboto, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <button id="fetchButton">Fetch Data</button>
+    <div id="result"></div>
+
+    <script>
+        // Add event listener for the button click
+        document.getElementById("fetchButton").addEventListener("click", function(){
+            // Correct XMLHttpRequest instantiation
+            var xhr = new XMLHttpRequest();
+            // Asynchronous request with correct casing for false
+            xhr.open("GET", "data.json", false);
+            // Send the request
+            xhr.send();
+            // Check the status of the response
+            if(xhr.status === 200){
+                var response = JSON.parse(xhr.responseText);
+                document.getElementById("result").innerHTML = "Data: " + response.message;
+            } else {
+                document.getElementById("result").innerHTML = "Error: " + xhr.status;
+            }
+        });
+    </script>
+</body>
+</html>

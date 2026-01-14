@@ -1,0 +1,35 @@
+library {
+    display: block;
+    margin: 20px;
+    font-family: roboto, sans-serif;
+}
+
+book {
+    display: block;
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+book > title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+}
+
+book > author {
+    color: #8e44ad;
+    display: block;
+}
+
+book > year {
+    color: #16a085;
+    display: block;
+}
+
+book > genre {
+    color: #e67e22;
+    display: block;
+}

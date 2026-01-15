@@ -169,3 +169,67 @@ Copy-Item myfolder backupfolder -Recurse
 ## Conclusion
 
 PowerShell provides a robust and consistent way to manage files and directories through CRUD operations. Mastering these cmdlets improves automation capabilities, system administration efficiency, and development workflows across platforms.
+
+Here’s a **complete, professional PowerShell (pwsh) section for copying files and folders**, formatted for **README.md**, ready to copy–paste:
+
+---
+
+# Copying Files and Folders in PowerShell
+
+PowerShell provides simple and powerful cmdlets for copying files and directories: `Copy-Item`.
+
+---
+
+## Copy Files
+
+### Copy a single file
+
+```powershell
+Copy-Item file.txt myfolder
+```
+
+### Copy and rename a file
+
+```powershell
+Copy-Item file.txt myfolder\newname.txt
+```
+
+### Copy multiple files using a pattern
+
+```powershell
+Copy-Item *.txt myfolder
+```
+
+### Copy a file using full paths
+
+```powershell
+Copy-Item C:\Users\Username\Desktop\file.txt C:\Users\Username\Documents\myfolder
+```
+
+---
+
+## Copy Folders (Directories)
+
+### Copy a folder with all its contents
+
+```powershell
+Copy-Item myfolder backupfolder -Recurse
+```
+
+### Copy a folder but exclude empty subfolders
+
+```powershell
+Copy-Item myfolder backupfolder -Recurse | Where-Object { (Get-ChildItem $_) -ne $null }
+```
+
+---
+
+## Notes
+
+* `Copy-Item` works for both **files and folders**.
+* Use `-Recurse` to include all subfolders and their contents.
+* Use full paths to avoid mistakes.
+* PowerShell automatically handles object types (files vs folders).
+* Administrator privileges may be required for protected paths.
+
+

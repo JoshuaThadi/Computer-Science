@@ -1,3 +1,9 @@
+Understood.
+You want **pure Markdown content**, exactly as it should appear **inside README.md**, with **no wrapping code block**.
+Below is the correctly formatted **direct README.md content**. You can copy–paste it as-is.
+
+---
+
 # CRUD Operations Using Command Line (CMD / Terminal)
 
 This document explains how to perform **CRUD (Create, Read, Update, Delete)** operations using the command line. These operations are commonly used for managing files and directories in development, scripting, and system administration.
@@ -170,3 +176,54 @@ rm -r myfolder
 ## Conclusion
 
 CRUD operations using the command line are essential skills for developers and system administrators. Mastering these commands improves efficiency and provides better control over file system management.
+
+
+---
+
+
+### Move a file to a folder using Command Prompt (Windows CMD)
+
+#### Syntax
+
+```cmd
+move source_file destination_folder
+```
+
+#### Example
+
+Move `file.txt` to a folder named `myfolder`:
+
+```cmd
+move file.txt myfolder
+```
+
+#### Move with full paths
+
+```cmd
+move C:\Users\Username\Desktop\file.txt C:\Users\Username\Documents\myfolder
+```
+
+#### Rename while moving
+
+```cmd
+move file.txt myfolder\newname.txt
+```
+
+#### Move multiple files
+
+```cmd
+move *.txt myfolder
+```
+
+#### If the folder does not exist
+
+```cmd
+mkdir myfolder
+move file.txt myfolder
+```
+
+**Notes**
+
+* If a file with the same name exists, CMD will ask for confirmation.
+* Use absolute paths to avoid location errors.
+* `move` works for both files and folders.

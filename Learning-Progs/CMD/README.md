@@ -343,4 +343,5 @@ rm -rf directory_name
 - Commands may require administrative privileges for certain operations
 - Path separators differ between Windows (backslash) and Unix-like systems (forward slash)
 - Some commands have multiple aliases for convenience
+
 - Error messages should be reviewed carefully before retrying operations

@@ -227,3 +227,104 @@ move file.txt myfolder
 * If a file with the same name exists, CMD will ask for confirmation.
 * Use absolute paths to avoid location errors.
 * `move` works for both files and folders.
+
+### Copy and Paste Files and Folders in Command Prompt (CMD)
+
+---
+
+## Copy Files in CMD
+
+### Copy a single file
+
+```cmd
+copy source_file destination
+```
+
+**Example**
+
+```cmd
+copy file.txt myfolder
+```
+
+---
+
+### Copy and rename a file
+
+```cmd
+copy file.txt myfolder\newname.txt
+```
+
+---
+
+### Copy multiple files
+
+```cmd
+copy *.txt myfolder
+```
+
+---
+
+### Copy a file using full paths
+
+```cmd
+copy C:\Users\Username\Desktop\file.txt C:\Users\Username\Documents\myfolder
+```
+
+---
+
+## Copy Folders in CMD
+
+CMD does **not** support copying folders using `copy`.
+Use `xcopy` or `robocopy`.
+
+---
+
+### Copy a folder using `xcopy`
+
+```cmd
+xcopy source_folder destination_folder /E /I
+```
+
+**Example**
+
+```cmd
+xcopy myfolder backupfolder /E /I
+```
+
+**Flags explanation**
+
+* `/E` → Copies all subfolders (including empty ones)
+* `/I` → Assumes destination is a directory
+
+---
+
+### Copy a folder using `robocopy` (recommended)
+
+```cmd
+robocopy source_folder destination_folder /E
+```
+
+**Example**
+
+```cmd
+robocopy myfolder backupfolder /E
+```
+
+---
+
+## Copy a Folder with Files Only
+
+```cmd
+xcopy myfolder backupfolder /S /I
+```
+
+---
+
+## Notes
+
+* `copy` → Files only
+* `xcopy` → Files and folders (older but common)
+* `robocopy` → Best for large folders and reliability
+* CMD does not have a separate paste command; copy operations include the destination path.
+
+

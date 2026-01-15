@@ -1,347 +1,172 @@
-# Command Line CRUD Operations
+# CRUD Operations Using Command Line (CMD / Terminal)
 
-This guide provides comprehensive instructions for performing Create, Read, Update, and Delete operations using the command line interface across different operating systems.
+This document explains how to perform **CRUD (Create, Read, Update, Delete)** operations using the command line. These operations are commonly used for managing files and directories in development, scripting, and system administration.
 
-## Table of Contents
+---
 
-- [Windows Command Prompt](#windows-command-prompt)
-- [Windows PowerShell](#windows-powershell)
-- [Linux/macOS Terminal](#linuxmacos-terminal)
+## What is CRUD?
 
-## Windows Command Prompt
+CRUD stands for:
 
-### Create Operations
+* **Create** – Create files or directories
+* **Read** – View file contents or list directories
+* **Update** – Modify existing files
+* **Delete** – Remove files or directories
 
-**Create a new file:**
+---
+
+# Windows Command Prompt (CMD)
+
+## 1. Create
+
+### Create a file
+
 ```cmd
-echo. > filename.txt
-type nul > filename.txt
-copy con filename.txt
+type nul > file.txt
 ```
 
-**Create a new directory:**
+### Create a directory
+
 ```cmd
-mkdir directory_name
-md directory_name
+mkdir myfolder
 ```
 
-**Create multiple directories:**
+---
+
+## 2. Read
+
+### View file contents
+
 ```cmd
-mkdir dir1 dir2 dir3
+type file.txt
 ```
 
-**Write content to a file:**
-```cmd
-echo Your content here > filename.txt
-echo Additional line >> filename.txt
-```
+### List files and folders
 
-### Read Operations
-
-**Display file contents:**
-```cmd
-type filename.txt
-more filename.txt
-```
-
-**List files in directory:**
 ```cmd
 dir
-dir /b
-dir /s
 ```
 
-**Search within files:**
+---
+
+## 3. Update
+
+### Edit a file using Notepad
+
 ```cmd
-find "search_term" filename.txt
-findstr "pattern" filename.txt
+notepad file.txt
 ```
 
-### Update Operations
+### Append text to a file
 
-**Append to a file:**
 ```cmd
-echo New content >> filename.txt
+echo New content >> file.txt
 ```
 
-**Replace file content:**
+---
+
+## 4. Delete
+
+### Delete a file
+
 ```cmd
-echo New content > filename.txt
+del file.txt
 ```
 
-**Rename a file:**
+### Delete an empty directory
+
 ```cmd
-ren old_name.txt new_name.txt
-rename old_name.txt new_name.txt
+rmdir myfolder
 ```
 
-**Rename a directory:**
+### Delete a directory with contents
+
 ```cmd
-ren old_directory new_directory
+rmdir /s myfolder
 ```
 
-**Move a file:**
-```cmd
-move filename.txt destination_path
-```
+---
 
-### Delete Operations
+# Linux / macOS Terminal (Bash)
 
-**Delete a file:**
-```cmd
-del filename.txt
-erase filename.txt
-```
+## 1. Create
 
-**Delete multiple files:**
-```cmd
-del *.txt
-del file1.txt file2.txt
-```
+### Create a file
 
-**Delete a directory:**
-```cmd
-rmdir directory_name
-rd directory_name
-```
-
-**Delete directory with contents:**
-```cmd
-rmdir /s directory_name
-rd /s /q directory_name
-```
-
-## Windows PowerShell
-
-### Create Operations
-
-**Create a new file:**
-```powershell
-New-Item -Path "filename.txt" -ItemType File
-Out-File -FilePath "filename.txt"
-```
-
-**Create a new directory:**
-```powershell
-New-Item -Path "directory_name" -ItemType Directory
-mkdir directory_name
-```
-
-**Write content to a file:**
-```powershell
-Set-Content -Path "filename.txt" -Value "Your content here"
-"Your content" | Out-File -FilePath "filename.txt"
-```
-
-### Read Operations
-
-**Display file contents:**
-```powershell
-Get-Content filename.txt
-cat filename.txt
-type filename.txt
-```
-
-**List files in directory:**
-```powershell
-Get-ChildItem
-ls
-dir
-```
-
-**Search within files:**
-```powershell
-Select-String -Path "filename.txt" -Pattern "search_term"
-```
-
-### Update Operations
-
-**Append to a file:**
-```powershell
-Add-Content -Path "filename.txt" -Value "New content"
-"New content" | Out-File -FilePath "filename.txt" -Append
-```
-
-**Replace file content:**
-```powershell
-Set-Content -Path "filename.txt" -Value "New content"
-```
-
-**Rename a file or directory:**
-```powershell
-Rename-Item -Path "old_name.txt" -NewName "new_name.txt"
-ren old_name.txt new_name.txt
-```
-
-**Move a file:**
-```powershell
-Move-Item -Path "filename.txt" -Destination "destination_path"
-```
-
-### Delete Operations
-
-**Delete a file:**
-```powershell
-Remove-Item -Path "filename.txt"
-del filename.txt
-```
-
-**Delete a directory:**
-```powershell
-Remove-Item -Path "directory_name"
-```
-
-**Delete directory with contents:**
-```powershell
-Remove-Item -Path "directory_name" -Recurse
-Remove-Item -Path "directory_name" -Recurse -Force
-```
-
-## Linux/macOS Terminal
-
-### Create Operations
-
-**Create a new file:**
 ```bash
-touch filename.txt
-> filename.txt
-cat > filename.txt
+touch file.txt
 ```
 
-**Create a new directory:**
+### Create a directory
+
 ```bash
-mkdir directory_name
+mkdir myfolder
 ```
 
-**Create nested directories:**
+---
+
+## 2. Read
+
+### View file contents
+
 ```bash
-mkdir -p parent/child/grandchild
+cat file.txt
 ```
 
-**Write content to a file:**
-```bash
-echo "Your content here" > filename.txt
-cat > filename.txt << EOF
-Your content here
-EOF
-```
+### List files and directories
 
-### Read Operations
-
-**Display file contents:**
-```bash
-cat filename.txt
-less filename.txt
-more filename.txt
-head filename.txt
-tail filename.txt
-```
-
-**List files in directory:**
 ```bash
 ls
-ls -la
-ls -lh
 ```
 
-**Search within files:**
+---
+
+## 3. Update
+
+### Edit a file using nano
+
 ```bash
-grep "search_term" filename.txt
-grep -r "search_term" directory_name
+nano file.txt
 ```
 
-### Update Operations
+### Append text to a file
 
-**Append to a file:**
 ```bash
-echo "New content" >> filename.txt
-cat >> filename.txt << EOF
-New content
-EOF
+echo "New content" >> file.txt
 ```
 
-**Replace file content:**
+---
+
+## 4. Delete
+
+### Delete a file
+
 ```bash
-echo "New content" > filename.txt
+rm file.txt
 ```
 
-**Rename a file or directory:**
+### Delete an empty directory
+
 ```bash
-mv old_name.txt new_name.txt
+rmdir myfolder
 ```
 
-**Move a file:**
+### Delete a directory with contents
+
 ```bash
-mv filename.txt destination_path/
+rm -r myfolder
 ```
 
-**Copy a file:**
-```bash
-cp source.txt destination.txt
-cp -r source_dir destination_dir
-```
-
-### Delete Operations
-
-**Delete a file:**
-```bash
-rm filename.txt
-```
-
-**Delete multiple files:**
-```bash
-rm file1.txt file2.txt
-rm *.txt
-```
-
-**Delete a directory:**
-```bash
-rmdir directory_name
-```
-
-**Delete directory with contents:**
-```bash
-rm -r directory_name
-rm -rf directory_name
-```
-
-## Common Flags and Options
-
-### Windows Command Prompt
-
-- `/s` - Include subdirectories
-- `/q` - Quiet mode, no confirmation
-- `/b` - Bare format, filenames only
-- `/a` - Display hidden files
-
-### PowerShell
-
-- `-Recurse` - Include subdirectories
-- `-Force` - Override restrictions
-- `-Confirm` - Prompt before action
-- `-WhatIf` - Preview without executing
-
-### Linux/macOS
-
-- `-r` or `-R` - Recursive operation
-- `-f` - Force operation without confirmation
-- `-i` - Interactive mode, prompt before action
-- `-v` - Verbose output
-- `-a` - Include hidden files
-
-## Best Practices
-
-1. Always verify the path before executing delete operations
-2. Use interactive mode when deleting important files
-3. Create backups before performing bulk update operations
-4. Use version control systems for critical files
-5. Test commands with non-critical files first
-6. Be cautious with wildcard characters in delete operations
+---
 
 ## Notes
 
-- Commands may require administrative privileges for certain operations
-- Path separators differ between Windows (backslash) and Unix-like systems (forward slash)
-- Some commands have multiple aliases for convenience
+* Use delete commands carefully as they permanently remove files.
+* Administrative or sudo permissions may be required for protected files.
+* These commands are foundational for scripting, DevOps, and backend development workflows.
 
-- Error messages should be reviewed carefully before retrying operations
+---
+
+## Conclusion
+
+CRUD operations using the command line are essential skills for developers and system administrators. Mastering these commands improves efficiency and provides better control over file system management.

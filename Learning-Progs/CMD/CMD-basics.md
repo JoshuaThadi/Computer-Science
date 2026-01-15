@@ -1,9 +1,3 @@
-Understood.
-You want **pure Markdown content**, exactly as it should appear **inside README.md**, with **no wrapping code block**.
-Below is the correctly formatted **direct README.md content**. You can copy–paste it as-is.
-
----
-
 # CRUD Operations Using Command Line (CMD / Terminal)
 
 This document explains how to perform **CRUD (Create, Read, Update, Delete)** operations using the command line. These operations are commonly used for managing files and directories in development, scripting, and system administration.

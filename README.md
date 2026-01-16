@@ -13,8 +13,7 @@ This section contains programming projects, academic practicals, algorithmic imp
 
 ## Programming Projects
 
-- [File Organizer (Python)](https://github.com/JoshuaThadi/Computer-Science/tree/main/programming-projects/File%20Organizer)  
-  A Python-based utility for organizing files efficiently.
+- [File Organizer (Python)](https://github.com/JoshuaThadi/Computer-Science/tree/main/programming-projects/File%20Organizer)-A Python-based utility for organizing files efficiently.
 
 ---
 

@@ -6,6 +6,79 @@ Computer Science is the study of computers, computational systems, and the princ
 In simple terms, Computer Science = the science of solving problems using computers.
 
 
+<details>
+  <summary><strong>Programming Files – Overview</strong></summary>
+
+This section contains programming projects, academic practicals, algorithmic implementations, and learning resources developed and practiced throughout computer science coursework and independent study.
+
+## Programming Projects
+
+- [File Organizer (Python)](https://github.com/JoshuaThadi/Computer-Science/tree/main/programming-projects/File%20Organizer)  
+  A Python-based utility for organizing files efficiently.
+
+---
+
+## Data Structures and Algorithms
+
+- [Python DSA Implementations](https://github.com/JoshuaThadi/Computer-Science/tree/main/DSA)
+
+---
+
+## HackerRank Solutions
+
+- [Algorithms](https://github.com/JoshuaThadi/Computer-Science/tree/main/HackerRankCodes/Algorithms_Codes)
+- [Data Structures](https://github.com/JoshuaThadi/Computer-Science/tree/main/HackerRankCodes/DataStructures_Codes)
+- [Python Problems](https://github.com/JoshuaThadi/Computer-Science/tree/main/HackerRankCodes/Python_Codes)
+
+---
+
+## Learning Programming
+
+Structured learning resources and practice material covering multiple technologies:
+
+- [Command Line (CMD)](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/CMD)
+- [PowerShell](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/Pwsh)
+- [Git and GitHub](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/git%20%26%20github)
+- [HTML and CSS](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/Html%20%26%20Css)
+- [Bootstrap Framework](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/Bootstrap%20Framework)
+- [Python](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/Python)
+- [R Programming](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/R%20program)
+- [JavaScript](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/javascript)
+- [MongoDB](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/mongoDB)
+- [Node.js](https://github.com/JoshuaThadi/Computer-Science/tree/main/Learning-Progs/nodejs)
+
+---
+
+## College Practicals
+
+Academic practicals aligned with undergraduate computer science curriculum:
+
+- [Advanced Application Development](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Advance-Application-development)
+- [Artificial Intelligence](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Artifical-Intelligence)
+- [Data Science](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Data-Science)
+- [Information and Network Security](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Information-netork-security)
+- [Internet of Things](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Internet-of-things)
+- [Java-Based Application Development](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Java-based-application-development)
+- [Linear Algebra](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Linear-Algebra)
+- [Principles of Operating Systems](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Principle-of-operating-system)
+- [Theory of Computation](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Theory-Of-Computation)
+- [Web Technology](https://github.com/JoshuaThadi/Computer-Science/tree/main/Practicals-clg/Web%20Technology)
+
+---
+
+## Tortoise Coding
+
+Fundamental programming practice and logic-building exercises:
+
+- [Python](https://github.com/JoshuaThadi/Computer-Science/tree/main/Tortoise-Coding/Python)
+- [C++](https://github.com/JoshuaThadi/Computer-Science/tree/main/Tortoise-Coding/c%2B%2B)
+- [C](https://github.com/JoshuaThadi/Computer-Science/tree/main/Tortoise-Coding/c)
+- [JavaScript](https://github.com/JoshuaThadi/Computer-Science/tree/main/Tortoise-Coding/javascript)
+
+</details>
+
+
+
 ---
 
 ## 📁 1. Foundations of Computer Science

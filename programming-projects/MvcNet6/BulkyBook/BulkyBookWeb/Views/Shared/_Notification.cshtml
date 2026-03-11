@@ -1,0 +1,15 @@
+﻿@if (TempData["Success"] != null)
+{
+    <div class="alert alert-primary alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Success!</strong> @TempData["Success"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-primary alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Success!</strong> @TempData["Error"]
+    </div>
+}

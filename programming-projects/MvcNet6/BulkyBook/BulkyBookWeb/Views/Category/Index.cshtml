@@ -1,0 +1,89 @@
+﻿@model List<Category>
+
+    <partial name = "_Notification"/>
+
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h1>Category List <i class="bi bi-tags-fill"></i></h1>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Category" asp-action="Create" class="btn btn-primary rounded">
+                <i class="bi bi-plus-circle-fill"></i> Create New Category
+            </a>
+        </div>
+    </div>
+
+    <style>
+        /* Additional CSS to style the table border and scrolling */
+        .rounded-table {
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+            .rounded-table thead th:first-child {
+                border-top-left-radius: 10px;
+            }
+
+            .rounded-table thead th:last-child {
+                border-top-right-radius: 10px;
+            }
+
+            .rounded-table tbody tr:last-child td:first-child {
+                border-bottom-left-radius: 10px;
+            }
+
+            .rounded-table tbody tr:last-child td:last-child {
+                border-bottom-right-radius: 10px;
+            }
+
+        .table-responsive {
+            max-height: 450px; /* Set the maximum height for the table */
+            overflow: auto; /* Enable vertical and horizontal scrolling */
+        }
+    </style>
+
+    <div class="table-responsive">
+        <table class="table table-striped rounded-table mt-4">
+            <!-- Table headers -->
+            <thead>
+                <tr>
+                    <th class="bg-primary text-white">
+                        Category ID <i class="bi bi-credit-card-fill"></i>
+                    </th>
+                    <th class="bg-primary text-white">
+                        Category Name <i class="bi bi-tv-fill"></i>
+                    </th>
+                    <th class="bg-primary text-white">
+                        Display Order <i class="bi bi-hdd-rack-fill"></i>
+                    </th>
+                    <th class="bg-primary text-white">
+                        Action  <i class="bi bi-subtract"></i>
+                    </th>
+                </tr>
+            </thead>
+            <!-- Table body -->
+            <tbody>
+                @foreach (var obj in Model.OrderBy(u => u.DisplayOrder))
+                {
+                    <tr>
+                        <td>@obj.CategoryID</td>
+                        <td>@obj.Name</td>
+                        <td>@obj.DisplayOrder</td>
+                        <td>
+                            <a asp-controller="Category" asp-action="Edit" asp-route-CategoryID="@obj.CategoryID" class="btn btn-primary mx-2 rounded">
+                                <i class="bi bi-pencil-fill"></i>
+                            </a>
+                            <a asp-controller="Category" asp-action="Delete" asp-route-CategoryID="@obj.CategoryID" class="btn btn-danger mx-2 rounded">
+                                <i class="bi bi-trash-fill"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

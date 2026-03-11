@@ -1,0 +1,34 @@
+﻿@model Category
+
+<form method="post">
+    <input asp-for="CategoryID" hidden/>
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Category</h2>
+        </div>
+        <hr>
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="mb-3 p-1">
+            <label class="p-0">Category Name</label>
+            <input asp-for="Name" disabled class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-1">
+            <label class="p-0">Display Order</label>
+            <input asp-for="DisplayOrder" disabled class="form-control" />
+            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-2 d-flex justify-content-center align-items-center">
+                <!-- Adjust column width and center align content -->
+                <button type="submit" class="btn btn-danger flex-fill rounded" style="max-width: 180px;"><i class="bi bi-credit-card-2-front-fill"></i>  Delete</button>
+                <div style="width: 10px;"></div> <!-- This creates a gap of 10px between buttons -->
+                <a asp-controller="Category" asp-action="Index" class="btn btn-primary flex-fill rounded" style="max-width: 180px;">
+                    <i class="bi bi-back"></i>  Back To List
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</form>

@@ -1,0 +1,44 @@
+<!--
+
+WAP to implement error handling in angular.js
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Handling in AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-app="errorHandlingApp" ng-controller="MainController">
+
+    <h1>Error Handling Example</h1>
+    <button ng-click="fetchData()">Fetch Data</button>
+    <p>{{ message }}</p>
+    <p ng-if="errorMessage" style="color:red">{{ errorMessage }}</p>
+
+    <script>
+        var app = angular.module("errorHandlingApp", []);
+
+        app.controller("MainController", function ($scope, $http) {
+            $scope.message = "Click the button to fetch data.";
+            $scope.errorMessage = "";
+
+            $scope.fetchData = function () {
+                $http.get("https://jsonplaceholder.typicode.com/invalid-url")
+                    .then(function (response) {
+                        $scope.message = "Data fetched successfully!";
+                        console.log(response.data);
+                    })
+                    .catch(function (error) {
+                        $scope.errorMessage = "Error fetching data: " + (error.status || "Unknown") + " " + (error.statusText || "");
+                        console.error(error);
+                    });
+            };
+        });
+    </script>
+
+</body>
+</html>

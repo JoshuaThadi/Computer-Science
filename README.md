@@ -90,13 +90,13 @@ Fundamental programming practice and logic-building exercises:
 - Operating System Fundamentals  
 - Software vs Hardware Concepts
 
-<a href="https://www.khanacademy.org/computing/computer-science"> 
+<a href="https://pll.harvard.edu/course/cs50-introduction-computer-science"> 
  <img src="https://img.shields.io/badge/Intro_to_CS-2e2e2e?style=for-the-badge"></a> 
 
 <a href="https://cs50.harvard.edu/x/"> 
   <img src="https://img.shields.io/badge/Harvard_CS50-2e2e2e?style=for-the-badge"></a> 
 
-<a href="https://www.computerhistory.org/"> 
+<a href="https://www.computerhistory.org/timeline/computers/"> 
   <img src="https://img.shields.io/badge/History_of_Computing-2e2e2e?style=for-the-badge"></a>
 
 ---
